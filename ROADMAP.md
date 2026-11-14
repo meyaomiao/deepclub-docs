@@ -4,8 +4,11 @@
 
 **生成进度**：
 - 基础起步包（6 篇 + Quickstart）：已完成
-- **Batch 1**（主流平台与开发框架适配 12 篇）：已生成（见 `guides/platforms/`）
-- Batch 2–5：分批推进中
+- **Batch 1**（主流平台与开发框架适配 12 篇）：已完成（[`guides/platforms/`](./guides/platforms/README.md)）
+- **Batch 2**（协议原理、缓存省钱、ZDR 安全、媒体工程与排障 10 篇）：已完成（[`guides/`](./README.md)）
+- **Batch 3**（模型横向评测、网关选型与月度成本测算 10 篇）：已完成（[`guides/comparisons/`](./guides/comparisons/)）
+- **Batch 4**（21 款在售文本模型深度扩充）：已完成（[`models/text/`](./models/README.md)）
+- **Batch 5**（13 款生图与视频模型深度扩充 + 官网开放入口联动）：文档库已全部生成（[`models/media/`](./models/README.md)），并与官网 [`https://deepclub.net/articles`](https://deepclub.net/articles) 实现双向互链与 34/34 模型全覆盖
 
 ---
 

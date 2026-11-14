@@ -86,13 +86,14 @@ More examples (streaming, image generation/editing, async video polling, and cli
 
 ## Repository Index
 
-- [`ROADMAP.md`](./ROADMAP.md) — 66-document multi-batch roadmap (platforms, protocol deep dives, comparisons, and all 34 live models)
+- [`ROADMAP.md`](./ROADMAP.md) — 66-document multi-batch roadmap (platforms, protocol deep dives, comparisons, and all 34 live models — **all batches complete**)
 - [`examples/quickstart.md`](./examples/quickstart.md) — Copy-pasteable Python, TypeScript, and cURL templates for all 5 endpoint families
-- [`guides/platforms/`](./guides/platforms/) — Integration guides for Dify, Chatbox, Immersive Translate, NextChat, LobeChat, OpenAI Agents SDK, Vercel AI SDK, LangChain/LangGraph, Codex CLI & OpenCode, Obsidian/Raycast, GitHub Actions, and Zed/Kilo Code
-- [`guides/protocol-and-clients/`](./guides/protocol-and-clients/) — Messages vs Chat, Responses migration, and 9-client URL cheatsheet
-- [`guides/comparisons/`](./guides/comparisons/) — OpenRouter vs direct vs DeepClub
-- [`guides/billing-and-privacy/`](./guides/billing-and-privacy/) — Pay-as-you-go setup and ZDR privacy
-- [`guides/media/`](./guides/media/) — Unified image generation/editing and async video pipeline
+- [`guides/platforms/`](./guides/platforms/) — Batch 1: 12 integration guides (Dify, Chatbox, Immersive Translate, NextChat, LobeChat, OpenAI Agents SDK, Vercel AI SDK, LangChain/LangGraph, Codex CLI & OpenCode, Obsidian/Raycast, GitHub Actions, Zed/Kilo Code)
+- [`guides/protocol-and-clients/`](./guides/protocol-and-clients/) — Batch 2: Messages vs Chat, Responses migration, Prompt Caching cost guide, Tool Calling & Structured Outputs, 401/404/429/SSE troubleshooting, and 9-client URL cheatsheet
+- [`guides/billing-and-privacy/`](./guides/billing-and-privacy/) — Batch 2: Pay-as-you-go without overseas cards, ZDR security & sub-key governance, and billing reconciliation
+- [`guides/media/`](./guides/media/) — Batch 2: Image generation/edits handbook and resumable async video polling
+- [`guides/comparisons/`](./guides/comparisons/) — Batch 3: 11 comparison & selection guides (OpenRouter vs Direct vs DeepClub, 2026 gateway selection, coding/batch/reasoning/long-context/Chinese/lightweight/video/poster/UI models, and monthly full-stack budget playbook)
+- [`models/`](./models/README.md) — Batch 4 & 5: All 34 live models (21 text + 13 image & video) with live pricing snapshots, multi-framework adapters, and runnable examples
 
 ---
 
