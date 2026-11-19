@@ -35,3 +35,5 @@
 
 - **写代码 + 原生工具执行**：`Claude` 走 `https://deepclub.net` + `/v1/messages`，`GPT` 走 `https://deepclub.net/v1` + `/v1/responses`；
 - **批量单测 / 文档生成 / Lint 修复**：下沉到 `gpt-6.1-sol`、`gpt-6.1-terra` 或 `deepseek-v4.1-flash`，整体研发额度支出可直降 **50%~70%**。
+
+更多编码对比与客户端配置：[AI 编程与 Agent 模型选型对比](https://deepclub.net/compare/coding-agent-models) · [Claude API 国内接入指南](https://deepclub.net/compare/claude-api-guide) · [GPT / Responses API 指南](https://deepclub.net/compare/gpt-api-guide)。

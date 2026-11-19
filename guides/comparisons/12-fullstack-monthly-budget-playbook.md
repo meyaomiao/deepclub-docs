@@ -44,9 +44,9 @@
 |---|---|---|
 | 多家官网月费（Chat Pro + 编码助手 + 生图/视频站点） | 往往需要 **\$40 ~ \$100+/月**（约 ¥280~¥720，用不完不退） | 编码 + 翻译 + 生图 + 视频合计约 **¥45 ~ ¥60/月** |
 | 出差/停更几天时 | 月费照扣不误 | **消耗为 ¥0**，余额永不过期 |
-| 协议与支付 | 各家分开绑海外卡 | 一个 Key 覆盖 34 款模型，支持支付宝/微信/PayPal/信用卡 |
+| 协议与支付 | 各家分开绑海外卡 | 一个 Key 覆盖 36 款在售模型，支持信用卡/微信支付/支付宝 |
 
 **三条进一步压低成本的技巧**：
-1. 尽量让 **Claude Code / Codex CLI** 保持原生协议路径并避免把当前时间戳插到 System Prompt 开头，最大化吃满 **`cache_read`** 折扣；
+1. 尽量让 **Claude Code / Codex CLI** 保持原生协议路径并避免把当前时间戳插到 System Prompt 开头，最大化吃满 **`cache_read`** 折扣（详见 [Prompt Caching 省钱指南](https://deepclub.net/compare/prompt-caching-guide)）；
 2. 高频入口（翻译、PR 初筛、总结）交给 `gpt-6-luna` / `gemini-4-hydrogen` / `gpt-6.1-terra`；
-3. 视频和 4K 大图先用低成本档验证构图后再出最终成片。
+3. 视频和 4K 大图先用低成本档验证构图后再出最终成片（详见 [AI 生图与视频生成 API 汇总](https://deepclub.net/compare/ai-image-video-api-pricing)）。

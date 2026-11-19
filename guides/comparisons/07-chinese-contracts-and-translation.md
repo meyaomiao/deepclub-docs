@@ -23,4 +23,4 @@
    - 计算机与工程术语优先测 `deepseek-v4.1-flash`（`cache_read` 低至 ¥0.022/M，配合固定术语表前缀几乎零缓存成本）；
    - 偏宏观经济、投资研报与长篇 PDF 可对比 `kimi-k3` 与 `gemini-4-argon`。
 
-全部实时价格见 [https://deepclub.net/pricing](https://deepclub.net/pricing)。
+全部实时价格见 [https://deepclub.net/pricing](https://deepclub.net/pricing)，专题选型详见 [AI 翻译与长文档大模型 API 选型对比](https://deepclub.net/compare/translation-long-context-models) 与 [GLM-5.3 vs Kimi-k3 对比](https://deepclub.net/compare/glm-5-3-vs-kimi-k3)。

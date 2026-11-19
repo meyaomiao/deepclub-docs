@@ -68,4 +68,4 @@ curl https://deepclub.net/v1/messages \
 
 部分工具或旧版本插件仅支持填写 OpenAI Compatible 端点（例如某些版本的 Cursor 自定义模型入口、旧版 Chat 客户端）。这种情况下，可以选用在深云 DeepClub 目录中同时开放了 `/v1/chat/completions` 兼容入口的型号（可在 [https://deepclub.net/pricing](https://deepclub.net/pricing) 查看每个模型具体开放的端点列表），将 Base URL 设为 `https://deepclub.net/v1`，填入完整模型 ID 即可兼容运行。
 
-**小结**：接入多模型 API 网关时，记住一句口诀——**Claude 优先走站根 + `/v1/messages`，GPT 文本与 Grok 优先走 `/v1/responses`，DeepSeek / Gemini 文本 / GLM / Kimi / Qwen 走 `/v1/chat/completions`**，就能避开绝大多数协议与路径坑。更多客户端的详细配置可参考 [深云 DeepClub API 接入文档](https://deepclub.net/docs)。
+**小结**：接入多模型 API 网关时，记住一句口诀——**Claude 优先走站根 + `/v1/messages`，GPT 文本与 Grok 优先走 `/v1/responses`，DeepSeek / Gemini 文本 / GLM / Kimi / Qwen 走 `/v1/chat/completions`**，就能避开绝大多数协议与路径坑。更多客户端的详细配置可参考 [Claude API 国内接入全指南](https://deepclub.net/compare/claude-api-guide)、[Claude Code 国内配置教程](https://deepclub.net/integrations/claude-code)（English: [Claude API Gateway](https://deepclub.net/en/compare/claude-api-proxy)）。

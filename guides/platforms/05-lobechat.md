@@ -43,4 +43,4 @@ LobeChat 对 **Anthropic** 与 **OpenAI** 使用不同的 SDK 路径规则：
 
 1. **连通性检查报“模型不存在”**：LobeChat 的“检查”按钮默认可能测试官方写死的模型 ID，请先在检查模型选择框里切换为你刚刚添加的精确模型 ID（例如 `gpt-6-luna`），再点测试。
 2. **返回 404**：检查是 `/v1` 多拼还是少了 `/v1`。可在 [深云 DeepClub 控制台使用日志](https://deepclub.net) 对照实际收到的请求路径；未进日志说明请求在路由前被路径 404 拦截。
-3. **生图与视频模型不要放进文本对话列表**：`gpt-image-2`、`gemini-3-pro-image`、`nano-banana-pro`、`Seedance-2.0-Fast` 等走独立的 `/v1/images/*` 和 `/v1/videos` 端点，不要加到聊天文本列表里。如需生图/视频模板，见 [图像与视频 API 实战](../media/images-and-videos-pipeline.md)。
+3. **生图与视频模型不要放进文本对话列表**：`gpt-image-2`、`gemini-3-pro-image`、`nano-banana-pro`、`Seedance-2.0-Fast` 等走独立的 `/v1/images/*` 和 `/v1/videos` 端点，不要加到聊天文本列表里。如需生图/视频模板，见 [图像与视频 API 实战](../media/images-and-videos-pipeline.md)，或在官网查看 [LobeChat 与 NextChat 配置](https://deepclub.net/integrations/lobechat-nextchat) 与 [API 报错排查](https://deepclub.net/integrations/api-troubleshooting)。

@@ -89,3 +89,4 @@ curl -i https://deepclub.net/v1/chat/completions \
 
 - 如果终端 `curl` 返回 `200 OK`，说明账号、余额和 Key 完全正常，100% 是客户端的 URL、路径模式或自定义采样参数配错了；
 - 同时可在控制台 **使用日志** 查看请求是否到达网关、最终收到的模型名和响应状态码。
+- 在线交互版速查：[大模型 API 401 / 404 / 400 / 429 常见报错排障指南](https://deepclub.net/integrations/api-troubleshooting)。

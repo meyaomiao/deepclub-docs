@@ -92,3 +92,5 @@ print(response.usage)
 ## 四、账单核对
 
 在 [深云 DeepClub](https://deepclub.net) 控制台 → **使用日志（Usage Logs）** 中，可以直接看到每次请求对应的 **缓存读取**、**缓存写入**、**标准输入/输出** 明细与实际扣费，建议上线新 Agent 前先跑 3~5 轮会话核对一次日志。
+
+专题指南：[大模型 API Prompt Caching 省钱指南](https://deepclub.net/compare/prompt-caching-guide) · [English Prompt Caching Guide](https://deepclub.net/en/compare/prompt-caching-llm-api)。

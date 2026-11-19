@@ -97,4 +97,4 @@ for event in stream:
 - **`gpt-6-luna`**：高频低成本对话（输入 ¥0.12 / 输出 ¥0.6 每百万 Token）
 - **`grok-4.7`**：实时资讯与多协议兼容（输入 ¥0.4 / 输出 ¥1.2 每百万 Token）
 
-更多 SDK 示例（Node.js / cURL）与各模型实时价格，可直接查看 [https://deepclub.net/docs](https://deepclub.net/docs)。
+更多 SDK 示例（Node.js / cURL）与各模型实时价格，可直接查看 [OpenAI Responses vs Chat Completions 迁移指南](https://deepclub.net/compare/openai-responses-vs-chat-completions)、[GPT / OpenAI API 接入指南](https://deepclub.net/compare/gpt-api-guide) 与 [API 文档](https://deepclub.net/docs)。

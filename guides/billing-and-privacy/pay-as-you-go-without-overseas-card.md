@@ -8,9 +8,9 @@
 
 ---
 
-## 一、核心优势：一个账号 + 支付宝/微信/PayPal/信用卡 + 按量计费
+## 一、核心优势：一个账号 + 支付宝/微信/信用卡 + 按量计费
 
-1. **无需海外信用卡**：控制台支持支付宝、微信支付、PayPal 以及 Visa/Mastercard 等充值方式（以充值页当前显示为准），充多少用多少。
+1. **无需海外信用卡**：控制台支持支付宝、微信支付以及 Visa/Mastercard 等充值方式（以充值页当前显示为准），充多少用多少。
 2. **无月度订阅捆绑**：文本按每百万 Token 计价，生图（`¥0.16` 起/张）和视频生成（`¥1.5` 起/个）按成功次数计价，没有最低消费。
 3. **一个 Key 调齐主力模型**：不用分别注册 Anthropic、OpenAI、Google、xAI、DeepSeek、智谱、Moonshot 账号，在后台创建一个 `sk-` 密钥就能按各自最优协议调用。
 4. **零留存（ZDR）**：请求内容与回复不做持久化存储，不用于模型训练。
@@ -36,4 +36,4 @@
    - **Cursor / Cline / Roo Code / Cherry Studio**：在 OpenAI Compatible（或对应协议设置）里把 Base URL 设为 `https://deepclub.net/v1`，填入 Key 和模型 ID（如 `claude-sonnet-5-5`、`gpt-6.1-sol`、`deepseek-v4.1-flash`）。
 3. **控制台核对账单**：每次请求消耗多少输入/输出 Token（含是否命中提示缓存）、花了多少钱，都可以在使用日志里逐笔查看。
 
-更多客户端的图文级配置说明：[https://deepclub.net/articles](https://deepclub.net/articles) 与 [https://deepclub.net/docs](https://deepclub.net/docs)。
+完整指南与最新支持状态见：[无海外信用卡使用 Claude / GPT API 接入指南](https://deepclub.net/compare/claude-gpt-api-china-payment) · [主流大模型 API 实时价格表](https://deepclub.net/pricing) · [全量客户端配置教程](https://deepclub.net/articles)。

@@ -17,4 +17,4 @@
 | [11-github-actions-pr-review.md](./11-github-actions-pr-review.md) | GitHub Actions PR Review Bot | CI 工作流 YAML、diff 截断与 Secret 权限隔离 |
 | [12-zed-and-kilo-code.md](./12-zed-and-kilo-code.md) | Zed / Kilo Code / DeepSeek Harness | Zed `settings.json` 双协议与 `chat_completions: false` 切换 Responses |
 
-更多客户端指南与协议原理见仓库根目录 [README.md](../../README.md) 与 [ROADMAP.md](../../ROADMAP.md)。
+更多客户端指南与协议原理见仓库根目录 [README.md](../../README.md) 与 [ROADMAP.md](../../ROADMAP.md)，或直接查看官网在线专题：[Continue IDE](https://deepclub.net/integrations/continue) · [Open WebUI](https://deepclub.net/integrations/open-webui) · [LobeChat & NextChat](https://deepclub.net/integrations/lobechat-nextchat) · [API 报错排查](https://deepclub.net/integrations/api-troubleshooting)。

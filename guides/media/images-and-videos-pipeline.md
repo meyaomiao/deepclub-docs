@@ -105,4 +105,4 @@ with open("output.mp4", "wb") as out:
 print("Saved output.mp4")
 ```
 
-更多关于图片规格与视频模型（`Seedance-2.0-Fast`、`Seedance-2.0-Mini`、`MiniMax-H3`）的详细教程可参考：[https://deepclub.net/articles](https://deepclub.net/articles)。
+更多关于图片规格与视频模型（`Seedance-2.0-Fast`、`Seedance-2.0-Mini`、`MiniMax-H3`）的汇总对比与详细教程可参考：[AI 生图与视频生成 API 汇总对比](https://deepclub.net/compare/ai-image-video-api-pricing)（English: [AI Video & Image API Reference](https://deepclub.net/en/compare/ai-video-image-api)）及 [模型单篇教程](https://deepclub.net/articles)。

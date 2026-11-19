@@ -12,10 +12,10 @@
 |---|---|---|---|
 | **协议保真度（最容易被忽略的坑）** | 各家原生协议 100% 完整，但代码需维护 5~7 套 SDK 与账号 | 主打统一 OpenAI Chat 抽象层；多供应商转换下的高阶参数行为随路由变化 | **按模型家族提供对应推荐原生协议**：Claude 走 `/v1/messages`、GPT/Grok 走 `/v1/responses`、其余走 `/v1/chat/completions` |
 | **多模态统一（图片 + 视频）** | 各自独立：Images、Gemini Media、Seedance/MiniMax 全要分别接 | 侧重文本模型 | **同一个 API Key**：文本 + OpenAI 规范生图/编辑 (`/v1/images/*`) + 异步视频 (`/v1/videos`) |
-| **目录确定性** | 仅自家模型 | 同一模型背后存在多家匿名小供应商动态竞价/回落 | 精选 34 款主流在售型号，开放端点、规格和实时价格全量公开在 [/pricing](https://deepclub.net/pricing) 与 `/api/sale_models` |
+| **目录确定性** | 仅自家模型 | 同一模型背后存在多家匿名小供应商动态竞价/回落 | 精选 36 款主流在售型号，开放端点、规格和实时价格全量公开在 [/pricing](https://deepclub.net/pricing) 与 `/api/sale_models` |
 | **Prompt Caching 透明度** | 原生支持 | 随具体路由到的供应商而变 | 定价表直接标明 `cache_read`、`cache_write`（5m/1h）独立单价，使用日志逐笔可见 |
 | **数据留存政策（ZDR）** | 需逐家检查付费 Tier 条款；部分免费层保留用于训练 | 需按具体路由到的下游供应商单独开关过滤 | 全平台统一 **Zero Data Retention (ZDR)** 零留存，输入输出不持久化存储 |
-| **支付与风控门槛** | 大多需海外实体卡/企业认证，国内跨境开发易触发风控封号 | 需海外卡或加密货币，且有平台充值手续费 | 支持 **支付宝、微信支付、PayPal、Visa/Mastercard**，纯按量计费、零月费 |
+| **支付与风控门槛** | 大多需海外实体卡/企业认证，国内跨境开发易触发风控封号 | 需海外卡或加密货币，且有平台充值手续费 | 支持 **信用卡（Visa/Mastercard）、微信支付、支付宝**，纯按量计费、零月费 |
 | **子 Key 与预算治理** | 各家控制台独立配置 | 支持单 Key 限额 | 支持按工具/项目分建子 Key，设独立额度、到期时间与模型白名单 |
 | **机器可读目录（AI / Agent 自动检索）** | 各家文档分散 | 提供 models JSON API | 原生提供 `/llms.txt` + `GET /api/sale_models` + 全站 SEO Schema |
 
@@ -38,3 +38,5 @@
 1. 打开 **[https://deepclub.net/pricing](https://deepclub.net/pricing)** 或直接请求免鉴权 **`GET https://deepclub.net/api/sale_models`**，核对你业务中最常用的 2~3 个模型单价、缓存读单价与开放端点；
 2. 创建一个小额子 Key，先跑一遍你们现有的最小业务回归集（例如 10 条工具调用、5 条长上下文缓存、2 张参考图编辑）；
 3. 核对 **[使用日志](https://deepclub.net)** 中的实际命中缓存比例、延迟和单次真实费用，再决定主力流量的路由比例。
+
+延伸阅读：[大模型 API 聚合网关选型指南](https://deepclub.net/compare/ai-api-gateway-guide) · [OpenRouter 国内替代对比](https://deepclub.net/compare/openrouter-alternative) · [Claude API 国内接入指南](https://deepclub.net/compare/claude-api-guide) · [GPT / OpenAI Responses 接入指南](https://deepclub.net/compare/gpt-api-guide) · [English Gateway Overview](https://deepclub.net/en)

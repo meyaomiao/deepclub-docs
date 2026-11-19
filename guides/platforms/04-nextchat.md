@@ -49,4 +49,4 @@ CUSTOM_MODELS=-all,+claude-sonnet-5-5@Anthropic,+claude-opus-5-5@Anthropic
 
 - **提示 `404`**：检查接口地址末尾是否不小心多加了 `/v1` 或 `/`；NextChat 中应直接填 `https://deepclub.net`。
 - **模型下拉选不到在售新模型**：必须在「自定义模型名」里写完整 ID（可在 [https://deepclub.net/pricing](https://deepclub.net/pricing) 核对），并用 `@Anthropic` 或 `@OpenAI` 显式绑定对应服务商。
-- **更多教程**：[https://deepclub.net/articles](https://deepclub.net/articles) ｜ [https://deepclub.net/docs](https://deepclub.net/docs)
+- **更多教程**：[LobeChat 与 NextChat 自定义 API 教程](https://deepclub.net/integrations/lobechat-nextchat) ｜ [401/404 报错排查](https://deepclub.net/integrations/api-troubleshooting) ｜ [模型教程](https://deepclub.net/articles)
